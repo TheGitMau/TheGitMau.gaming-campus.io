@@ -319,3 +319,122 @@ footer h4 {
   justify-content: center;
   gap: 25px;
 }
+
+@media screen and (max-width: 1115px) {
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 16px 100px;
+  }
+
+  .infos-pratiques-container li {
+    margin-bottom: 3px;
+  }
+
+  .parents-container p {
+    margin-bottom: 3px;
+  }
+
+  .nous-contacter-container p {
+    margin-bottom: 3px;
+  }
+
+  .font {
+    margin-bottom: 3px;
+  }
+
+  .nous-suivre-container p {
+    margin-bottom: 3px;
+  }
+
+  .section-5-2 {
+    width: 100%;
+    background-color: rgb(255, 254, 254);
+    display: flex;
+    align-items: center;
+    padding: 45px 90px;
+    justify-content: space-between;
+  }
+
+  .footer-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  .section-5-2 {
+    width: 100%;
+    background-color: rgb(255, 254, 254);
+    display: flex;
+    align-items: center;
+    padding: 45px 50px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1014px) {
+  .section-5-2 {
+    width: 100%;
+    background-color: rgb(255, 254, 254);
+    display: flex;
+
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .section-5-2-1 h6 {
+    font-weight: 750;
+    margin-bottom: 15px;
+  }
+
+  .section-5-2-1 p {
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+  }
+
+  .footer-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 280px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .section-5-1 {
+    height: 330px;
+    width: 100%;
+    background-color: #fffefe;
+    padding: 45px 150px;
+    gap: 5px;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .section-5-1 {
+    width: 100%;
+    background-color: #fffefe;
+    padding: 45px 150px;
+    gap: 20px;
+    display: flex;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 0.6rem;
+    padding: 16px 100px;
+  }
+}
